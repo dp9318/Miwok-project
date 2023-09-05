@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/numbers"
+        style="@style/Category_Style"
+        android:text="@string/category_numbers"
+        android:fontFamily="@font/arial_bold"
+        android:background="@drawable/numbers"
+        />
+
+    <TextView
+        android:id="@+id/family"
+        style="@style/Category_Style"
+        android:background="@drawable/family_members"
+        android:text="@string/category_family"
+        android:onClick="family_members"
+        android:fontFamily="@font/arial_bold"
+        />
+
+    <TextView
+        android:id="@+id/colors"
+        style="@style/Category_Style"
+        android:background="@drawable/colors"
+        android:text="@string/category_colors"
+        android:fontFamily="@font/arial_bold"
+        android:onClick="colors"/>
+
+    <TextView
+        android:id="@+id/phrases"
+        style="@style/Category_Style"
+        android:background="@drawable/phrases"
+        android:text="@string/category_phrases"
+        android:fontFamily="@font/arial_bold"
+        android:onClick="phrases"/>
+
+</LinearLayout>

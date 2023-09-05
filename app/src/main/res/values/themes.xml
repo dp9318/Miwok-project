@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Miwok" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#FFFDD835</item>
+        <item name="android:statusBarColor">#FFECB3</item>
+    </style>
+
+    <style name="Theme.Miwok.Numbers" parent="Theme.AppCompat.Light">
+        <item name="android:statusBarColor">#D84315</item>
+        <item name="colorPrimary">#BF360C</item>
+    </style>
+
+    <style name="Theme.Miwok.Family_Members" parent="Theme.AppCompat.Light">
+        <item name="android:statusBarColor">#00C853</item>
+        <item name="colorPrimary">#048A3C</item>
+    </style>
+
+    <style name="Theme.Miwok.Colors" parent="Theme.AppCompat.Light" >
+        <item name="android:statusBarColor">#1565C0</item>
+        <item name="colorPrimary">#094993</item>
+    </style>
+
+    <style name="Theme.Miwok.Phrases" parent="Theme.AppCompat.Light">
+        <item name="android:statusBarColor">#F9A825</item>
+        <item name="colorPrimary">#B5750E</item>
+    </style>
+</resources>
